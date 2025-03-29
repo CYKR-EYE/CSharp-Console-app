@@ -1,3 +1,14 @@
-﻿Voiture miata = new Voiture("Mazda", "rouge", 100000, "essence", 5000);
+﻿// TODO : Déclarer une variable nommée couleurs d'un array de string de longueur 5
+string[] couleurs = new string[5];
 
-Console.WriteLine($"La {miata.Marque} est de couleur {miata.couleur}, a {miata.kilometrage} km, est motorisée à l'{miata.motorisation} et coûte {miata.prix} euros.");
+// TODO : Remplir le tableau avec les couleurs demandées dans le README.md
+couleurs = [ "rouge", "bleu", "vert", "jaune", "noir" ];
+
+// TODO : Remplacer vert par émeraude dans le tableau
+couleurs[2] = "émeraude";
+
+// Afficher le contenu du tableau
+foreach (string couleur in couleurs)
+{
+    Console.WriteLine(couleur);
+}
